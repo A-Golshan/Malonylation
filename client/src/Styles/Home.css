@@ -1,0 +1,57 @@
+.Home .home-intro {
+    background-color: #03203A;
+}
+
+.Home .home-intro #intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.644);
+    padding: 20px 10px;
+}
+
+.Home .home-intro #intro div {
+    padding: 15px 15px;
+    background-color: #003B5C;
+}
+
+.Home .home-intro #button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.Home .home-intro #button-container .intro-button {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    -webkit-user-select: none;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.Home .home-intro #button-container .intro-button:hover {
+    cursor: pointer;
+}
+
+.Home .home-intro #button-container .intro-button.gs-btn {
+    background-color: #00b2a9;
+    transition: ease 300ms;
+}
+
+.Home .home-intro #button-container .intro-button.gs-btn:hover {
+    background-color: #008f86;
+}
+
+.Home .home-intro #button-container .intro-button.dl-btn {
+    border:aliceblue solid 1px;
+    transition: ease 300ms;
+}
+
+.Home .home-intro #button-container .intro-button.dl-btn:hover {
+    color: rgba(255, 255, 255, 0.644);
+    border-color: rgba(255, 255, 255, 0.644);
+}
