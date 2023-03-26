@@ -293,12 +293,11 @@ const Server = () => {
                                     } }
                                     style={{width: '60%', textAlign: 'center'}}
                                 >
-                                    <MenuItem value='KNN'>KNN</MenuItem>
-                                    <MenuItem value='DNN'>DNN</MenuItem>
-                                    <MenuItem value='RF'>RF</MenuItem>
-                                    <MenuItem value='DT'>DT</MenuItem>
                                     <MenuItem value='XGB'>XGB</MenuItem>
                                     <MenuItem value='SVM'>SVM</MenuItem>
+                                    <MenuItem value='RF'>RF</MenuItem>
+                                    <MenuItem value='KNN'>KNN</MenuItem>
+                                    <MenuItem value='DNN'>DNN</MenuItem>
                                 </Select>
                             </FormControl>
                         </div>
