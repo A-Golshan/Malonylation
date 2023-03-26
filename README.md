@@ -8,7 +8,7 @@ root
 └── server #
 ```
 
-## Usage
+## Getting started
 1. Clone the repository
 ```
 git clone https://github.com/arc-ch/Malonylation.git
@@ -23,9 +23,11 @@ npm install
 ```
 4. start server
 ```
-npm run start-serever
+npm run start-server
 ```
 5. start client
 ```
 npm start
 ```
+
+# Usage
