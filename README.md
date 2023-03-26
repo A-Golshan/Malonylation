@@ -13,7 +13,7 @@ root
 ```
 git clone https://github.com/arc-ch/Malonylation.git
 ```
-2. Change working directory to client/
+2. Change working directory to `client/`
 ```
 cd client
 ```
