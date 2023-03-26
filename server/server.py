@@ -4,6 +4,10 @@ import pandas as pd
 import pickle
 from tensorflow.keras.models import load_model
 from joblib import load
+import warnings
+
+
+warnings.filterwarnings('ignore')
 
 
 app = Flask(__name__)
