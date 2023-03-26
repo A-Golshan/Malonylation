@@ -123,7 +123,7 @@ const Server = () => {
     const validateInputData = () => {
         
         const textarea = document.querySelector('.Server .input-area textarea');
-        if(regex.test(inputData)) {
+        if(fastaRegex.test(inputData)) {
             setIsValidInputData(true);
             textarea.classList.remove('error');
         }
@@ -231,7 +231,8 @@ const Server = () => {
     
 
     // const regex = /^(>sp\|(.)+\n([ARNDCQEGHILKMFPSTWYV](\n)?)*(\n)?)*$/
-    const regex = /^(>(.)+\n([ARNDCQEGHILKMFPSTWYV](\n)?)*(\n)?)*$/
+    const fastaRegex = /^(>.+\n([ARNDCQEGHILKMFPSTWYV](\n)?)*(\n)?)*$/
+    const headerRegex = />(.)+\n/g;
 
     return (
         <div className="Server">
@@ -362,7 +363,8 @@ const Server = () => {
                         // updateStyles();
                         // setTimeout(() => {
                             // const splittedData = inputData.split(/>sp\|P[0-9]{5}(.)+\n/g);
-                            const splittedData = inputData.split(/>sp\|(.)+\n/g);
+                            // const splittedData = inputData.split(/>sp\|(.)+\n/g);
+                            const splittedData = inputData.split(headerRegex);
                             const temp= [];
                             for(let i = 2; i < splittedData.length; i+=2) {
                                 const sequence = splittedData[i].replaceAll('\n', '')
