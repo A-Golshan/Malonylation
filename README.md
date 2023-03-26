@@ -31,4 +31,4 @@ npm start
 ```
 
 # Usage
-![](https://github.com/arc-ch/Malonylation/blob/main/GIF/usage.gif)
+![](https://github.com/A-Golshan/Malonylation/blob/main/GIF/usage.gif)
