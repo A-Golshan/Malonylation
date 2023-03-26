@@ -11,7 +11,7 @@ root
 ## Getting started
 1. Clone the repository
 ```
-git clone https://github.com/arc-ch/Malonylation.git
+git clone https://github.com/A-Golshan/Malonylation.git
 ```
 2. Change working directory to `client/`
 ```
