@@ -230,7 +230,8 @@ const Server = () => {
 
     
 
-    const regex = /^(>sp\|(.)+\n([ARNDCQEGHILKMFPSTWYV](\n)?)*(\n)?)*$/
+    // const regex = /^(>sp\|(.)+\n([ARNDCQEGHILKMFPSTWYV](\n)?)*(\n)?)*$/
+    const regex = /^(>(.)+\n([ARNDCQEGHILKMFPSTWYV](\n)?)*(\n)?)*$/
 
     return (
         <div className="Server">
