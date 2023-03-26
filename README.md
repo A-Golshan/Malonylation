@@ -3,9 +3,9 @@
 ## Project Layout
 ```bash
 root
-├── client # user interface this project 
+├── client # user interface
 ├── model # model implementations (XGBoost, SVM, RF, DNN, KNN), Feature extraction and datasets
-└── server #
+└── server
 ```
 
 ## Getting started
